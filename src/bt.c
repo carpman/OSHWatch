@@ -1,46 +1,7 @@
 #include "debug.h"
+#include "hal.h"
 
 #include "bt.h"
-
-void uart_send_string(char *string)
-{
-    uint8_t index = 0;
-    unsigned char c = string[index];
-
-    while(c != 0)
-    {
-        while (USART_GetFlagStatus(USART1, USART_FLAG_TXE) == RESET);
-        USART_SendData(USART1, c);
-        index++;
-        c = string[index];
-    }
-}
-
-uint8_t uart_receive_string(char *dest, uint8_t length)
-{
-    uint8_t i;
-    for(i = 0; i < length; i++){
-        while(USART_GetFlagStatus(USART1, USART_FLAG_RXNE) == RESET);
-        dest[i] = USART_ReceiveData(USART1);
-        dest[i+1] = 0;
-    }
-    return i;
-}
-
-uint8_t uart_receive_string_until(char *dest, uint8_t length, unsigned char stop)
-{
-    uint8_t i;
-    for(i = 0; i < length; i++){
-        while(USART_GetFlagStatus(USART1, USART_FLAG_RXNE) == RESET);
-        dest[i] = USART_ReceiveData(USART1);
-        if(dest[i] == stop)
-        {
-            dest[i+1] = 0;
-            break;
-        }
-    }
-    return i;
-}
 
 uint8_t bt_command_mode(void)
 {

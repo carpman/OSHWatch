@@ -4,6 +4,7 @@
 #include "display.h"
 #include "bt.h"
 #include "lsm9ds0.h"
+#include "debug.h"
 
 int main(void)
 {
@@ -25,6 +26,11 @@ int main(void)
     //LSM9DS0_Init();
 
     bt_startup();
+    //bt_bond();
 
-	while(1);
+    char buffer[255];
+	while(1){
+        uart_receive_string_until(buffer, 255, '\r');
+        debug_print(buffer);
+    }
 }

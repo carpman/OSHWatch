@@ -34,6 +34,10 @@ void GPIO_Setup(void);
 void I2C_WriteRegister(uint8_t addr, uint8_t reg, uint8_t val);
 uint8_t I2C_ReadReg(uint8_t addr, uint8_t reg, uint8_t *buffer, uint8_t length);
 
+uint8_t uart_recieve_string(char *dest, uint8_t length);
+void uart_send_string(char *string);
+uint8_t uart_receive_string_until(char *dest, uint8_t length, unsigned char stop);
+
 void Delay(uint32_t Time);
 
 #endif

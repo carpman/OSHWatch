@@ -2,7 +2,6 @@
 #include "glcdfont.h"
 #include "display.h"
 
-static uint8_t display_buffer[128];
 static uint8_t display_command_mode = 0;
 
 void display_command(uint8_t command)
@@ -139,8 +138,6 @@ void display_write(uint16_t x, uint16_t y, char *text, uint16_t color, uint16_t 
 
 void display_init(void)
 {
-    int i = 0;
-
     GPIO_SetBits(DISPLAY_DC_RESET_BANK, DISPLAY_CS_PIN);
 
     GPIO_SetBits(DISPLAY_DC_RESET_BANK, DISPLAY_RESET_PIN); 
