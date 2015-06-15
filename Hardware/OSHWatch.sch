@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title ""
-Date "14 jun 2015"
+Date "15 jun 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -93,9 +93,16 @@ S 6350 3900 1400 1200
 U 557DD3CC
 F0 "Sensors" 50
 F1 "OSHWatch_Sensors.sch" 50
+F2 "I2C_SCK" B L 6350 4100 60 
+F3 "I2C_SDA" I L 6350 4200 60 
+F4 "GESTURE_INT" O L 6350 4300 60 
 $EndSheet
 Wire Wire Line
 	2950 3100 4000 3100
 Wire Wire Line
 	4000 3200 2950 3200
+Wire Wire Line
+	5700 4100 6350 4100
+Wire Wire Line
+	5700 4200 6350 4200
 $EndSCHEMATC
