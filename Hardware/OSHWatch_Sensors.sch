@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title ""
-Date "15 jun 2015"
+Date "23 jun 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -147,29 +147,7 @@ F 3 "" H 1250 2200 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	1250 2150 1250 2200
-$Comp
-L +BATT #PWR?
-U 1 1 557E1A0A
-P 2700 1550
-F 0 "#PWR?" H 2700 1500 20  0001 C CNN
-F 1 "+BATT" H 2700 1650 30  0000 C CNN
-F 2 "" H 2700 1550 60  0000 C CNN
-F 3 "" H 2700 1550 60  0000 C CNN
-	1    2700 1550
-	1    0    0    -1  
-$EndComp
 Connection ~ 2700 1650
-$Comp
-L +BATT #PWR?
-U 1 1 557E1A31
-P 750 1650
-F 0 "#PWR?" H 750 1600 20  0001 C CNN
-F 1 "+BATT" H 750 1750 30  0000 C CNN
-F 2 "" H 750 1650 60  0000 C CNN
-F 3 "" H 750 1650 60  0000 C CNN
-	1    750  1650
-	1    0    0    -1  
-$EndComp
 $Comp
 L C C?
 U 1 1 557E1A37
@@ -327,17 +305,6 @@ F 3 "~" H 4200 2100 60  0000 C CNN
 	1    4200 2100
 	1    0    0    -1  
 $EndComp
-$Comp
-L +BATT #PWR?
-U 1 1 557E31FD
-P 4200 1800
-F 0 "#PWR?" H 4200 1750 20  0001 C CNN
-F 1 "+BATT" H 4200 1900 30  0000 C CNN
-F 2 "" H 4200 1800 60  0000 C CNN
-F 3 "" H 4200 1800 60  0000 C CNN
-	1    4200 1800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4200 1800 4200 1900
 Connection ~ 4200 1850
@@ -366,4 +333,37 @@ Text HLabel 7100 1700 2    51   Input ~ 0
 GYRO_INT
 Text HLabel 7100 1800 2    51   Input ~ 0
 XM_INT
+$Comp
+L +3.3V #PWR?
+U 1 1 5586FD81
+P 2700 1550
+F 0 "#PWR?" H 2700 1510 30  0001 C CNN
+F 1 "+3.3V" H 2700 1660 30  0000 C CNN
+F 2 "" H 2700 1550 60  0000 C CNN
+F 3 "" H 2700 1550 60  0000 C CNN
+	1    2700 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 5586FD90
+P 750 1650
+F 0 "#PWR?" H 750 1610 30  0001 C CNN
+F 1 "+3.3V" H 750 1760 30  0000 C CNN
+F 2 "" H 750 1650 60  0000 C CNN
+F 3 "" H 750 1650 60  0000 C CNN
+	1    750  1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 5586FD9F
+P 4200 1800
+F 0 "#PWR?" H 4200 1760 30  0001 C CNN
+F 1 "+3.3V" H 4200 1910 30  0000 C CNN
+F 2 "" H 4200 1800 60  0000 C CNN
+F 3 "" H 4200 1800 60  0000 C CNN
+	1    4200 1800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
