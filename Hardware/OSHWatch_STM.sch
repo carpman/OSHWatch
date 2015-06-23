@@ -124,13 +124,9 @@ Wire Wire Line
 Wire Wire Line
 	4700 3750 4100 3750
 Wire Wire Line
-	6400 3250 8150 3250
+	6400 3250 8500 3250
 Wire Wire Line
-	8150 3250 8500 3250
-Wire Wire Line
-	6400 3350 8300 3350
-Wire Wire Line
-	8300 3350 8500 3350
+	6400 3350 8500 3350
 Wire Wire Line
 	6400 2550 7050 2550
 Wire Wire Line
@@ -140,13 +136,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 4550 4450 4550
 Wire Wire Line
-	4450 4550 4450 4650
-Wire Wire Line
-	4450 4650 4450 4750
-Wire Wire Line
-	4450 4750 4450 4900
-Wire Wire Line
-	4450 4900 4450 5250
+	4450 4550 4450 5250
 Wire Wire Line
 	4700 4650 4450 4650
 Connection ~ 4450 4650
@@ -157,23 +147,9 @@ Wire Wire Line
 	4700 4900 4450 4900
 Connection ~ 4450 4900
 Wire Wire Line
-	6400 3950 7000 3950
+	6400 3950 7600 3950
 Wire Wire Line
-	7000 3950 7350 3950
-Wire Wire Line
-	7350 3950 7600 3950
-Wire Wire Line
-	7000 3900 7000 3950
-Wire Wire Line
-	7000 3950 7000 4100
-Wire Wire Line
-	7000 4100 7000 4200
-Wire Wire Line
-	7000 4200 7000 4300
-Wire Wire Line
-	7000 4300 7000 4450
-Wire Wire Line
-	7000 4450 7000 4750
+	7000 3900 7000 4750
 Wire Wire Line
 	7000 4100 6400 4100
 Connection ~ 7000 3950
@@ -243,9 +219,7 @@ F 3 "~" H 8300 2900 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 2450 8300 2600
-Wire Wire Line
-	8300 2600 8300 2650
+	8300 2450 8300 2650
 Wire Wire Line
 	8150 2650 8150 2600
 Wire Wire Line
@@ -279,4 +253,8 @@ F 3 "" H 7000 3900 60  0000 C CNN
 	1    7000 3900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4700 2850 4100 2850
+Text HLabel 4100 2850 0    60   Input ~ 0
+VBAT_SENSE
 $EndSCHEMATC
