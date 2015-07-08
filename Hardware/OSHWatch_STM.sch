@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title ""
-Date "5 jul 2015"
+Date "8 jul 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -348,4 +348,34 @@ Wire Wire Line
 	7050 2950 6400 2950
 Wire Wire Line
 	4700 3750 4100 3750
+Wire Wire Line
+	6400 4650 7350 4650
+Connection ~ 7350 4650
+$Comp
+L R R29
+U 1 1 559C92E6
+P 2150 3200
+F 0 "R29" V 2230 3200 40  0000 C CNN
+F 1 "10K" V 2157 3201 40  0000 C CNN
+F 2 "SM0402" V 2080 3200 30  0000 C CNN
+F 3 "~" H 2150 3200 30  0000 C CNN
+	1    2150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR012
+U 1 1 559C92EC
+P 2150 2900
+F 0 "#PWR012" H 2150 2860 30  0001 C CNN
+F 1 "+3.3V" H 2150 3010 30  0000 C CNN
+F 2 "" H 2150 2900 60  0000 C CNN
+F 3 "" H 2150 2900 60  0000 C CNN
+	1    2150 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 3750 2150 3450
+Connection ~ 2150 3750
+Wire Wire Line
+	2150 2950 2150 2900
 $EndSCHEMATC

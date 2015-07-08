@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Mon 06 Jul 2015 09:31:09 PM CDT
+PCBNEW-LibModule-V1  Tue 07 Jul 2015 08:59:50 PM CDT
 # encoding utf-8
 Units mm
 $INDEX
@@ -345,7 +345,7 @@ Po -0.55 0.975
 $EndPAD
 $EndMODULE BMP280
 $MODULE HTU12DF
-Po 0 0 0 15 5596A8E3 00000000 ~~
+Po 0 0 0 15 559C80AE 00000000 ~~
 Li HTU12DF
 Sc 0
 AR 
@@ -353,46 +353,46 @@ Op 0 0 0
 T0 0 -5.5 1 1 0 0.15 N V 21 N "HTU12DF"
 T1 0 6.1 1 1 0 0.15 N V 21 N "VAL**"
 $PAD
-Sh "2" R 0.4 0.4 0 0 0
+Sh "2" R 0.4 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0 -1.3
+Po 0 -1.36
 $EndPAD
 $PAD
-Sh "5" R 0.4 0.4 0 0 0
+Sh "5" R 0.4 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0 1.3
+Po 0 1.35
 $EndPAD
 $PAD
-Sh "1" R 0.4 0.4 0 0 0
+Sh "1" R 0.4 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1 -1.3
+Po 1 -1.35
 $EndPAD
 $PAD
-Sh "6" R 0.4 0.4 0 0 0
+Sh "6" R 0.4 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1 1.3
+Po 1 1.35
 $EndPAD
 $PAD
-Sh "3" R 0.4 0.4 0 0 0
+Sh "3" R 0.4 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1 -1.3
+Po -1 -1.35
 $EndPAD
 $PAD
-Sh "4" R 0.4 0.4 0 0 0
+Sh "4" R 0.4 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1 1.3
+Po -1 1.35
 $EndPAD
 $EndMODULE HTU12DF
 $MODULE KD3270031
@@ -870,7 +870,7 @@ Po -5.4 2.02
 $EndPAD
 $EndMODULE SPBT2632C2A
 $MODULE UFQFPN48
-Po 0 0 0 15 557DD69D 00000000 ~~
+Po 0 0 0 15 559C8412 00000000 ~~
 Li UFQFPN48
 Sc 0
 AR 
@@ -882,168 +882,168 @@ Sh "37" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po 2.75 -3.75
+Po 2.75 -3.375
 $EndPAD
 $PAD
 Sh "38" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po 2.25 -3.75
+Po 2.25 -3.375
 $EndPAD
 $PAD
 Sh "39" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po 1.75 -3.75
+Po 1.75 -3.375
 $EndPAD
 $PAD
 Sh "40" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po 1.25 -3.75
+Po 1.25 -3.375
 $EndPAD
 $PAD
 Sh "41" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po 0.75 -3.75
+Po 0.75 -3.375
 $EndPAD
 $PAD
 Sh "42" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po 0.25 -3.75
+Po 0.25 -3.375
 $EndPAD
 $PAD
 Sh "43" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po -0.25 -3.75
+Po -0.25 -3.375
 $EndPAD
 $PAD
 Sh "44" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po -0.75 -3.75
+Po -0.75 -3.375
 $EndPAD
 $PAD
 Sh "45" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po -1.25 -3.75
+Po -1.25 -3.375
 $EndPAD
 $PAD
 Sh "46" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po -1.75 -3.75
+Po -1.75 -3.375
 $EndPAD
 $PAD
 Sh "47" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po -2.25 -3.75
+Po -2.25 -3.375
 $EndPAD
 $PAD
 Sh "48" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po -2.75 -3.75
+Po -2.75 -3.375
 $EndPAD
 $PAD
 Sh "13" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po -2.75 3.75
+Po -2.75 3.375
 $EndPAD
 $PAD
 Sh "14" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po -2.25 3.75
+Po -2.25 3.375
 $EndPAD
 $PAD
 Sh "15" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po -1.75 3.75
+Po -1.75 3.375
 $EndPAD
 $PAD
 Sh "16" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po -1.25 3.75
+Po -1.25 3.375
 $EndPAD
 $PAD
 Sh "17" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po -0.75 3.75
+Po -0.75 3.375
 $EndPAD
 $PAD
 Sh "18" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po -0.25 3.75
+Po -0.25 3.375
 $EndPAD
 $PAD
 Sh "19" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po 0.25 3.75
+Po 0.25 3.375
 $EndPAD
 $PAD
 Sh "20" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po 0.75 3.75
+Po 0.75 3.375
 $EndPAD
 $PAD
 Sh "21" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po 1.25 3.75
+Po 1.25 3.375
 $EndPAD
 $PAD
 Sh "22" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po 1.75 3.75
+Po 1.75 3.375
 $EndPAD
 $PAD
 Sh "23" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po 2.25 3.75
+Po 2.25 3.375
 $EndPAD
 $PAD
 Sh "24" R 0.55 0.3 0 0 900
 Dr 0 0 0
 At SMD N 008C8000
 Ne 0 ""
-Po 2.75 3.75
+Po 2.75 3.375
 $EndPAD
 $PAD
 Sh "25" R 0.55 0.3 0 0 0
